@@ -1,3 +1,8 @@
-sec = 1,2,3
+lista_uno = ['a', 'b', 'c', 'd', 'e', 'f']
 
-print(f'sec: {sec}')
+for indice, letra in enumerate(lista_uno, start=1):
+    print(f'{indice} - letra: {letra}')
+
+
+diccionario = dict(enumerate(lista_uno, start=1))
+print(diccionario)
