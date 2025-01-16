@@ -12,3 +12,6 @@ def externa():
 
 externa()
 print(x)  # Busca en el namespace global.
+
+
+
